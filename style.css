@@ -24,6 +24,7 @@ body {
   place-content: center;
   background-color: var(--Light-grayish-blue);
   font-size: 1.3rem;
+  color: var(--Light-gray);
 }
 main {
   display: grid;
@@ -115,9 +116,11 @@ p {
   main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+      gap: 3rem;
   }
   section {
     gap: 2rem;
+    padding: 3rem;
   }
 
   .card-1 {
