@@ -24,7 +24,6 @@ body {
   place-content: center;
   background-color: var(--Light-grayish-blue);
   font-size: 1.3rem;
-  color: var(--Light-gray);
 }
 main {
   display: grid;
